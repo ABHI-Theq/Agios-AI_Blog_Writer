@@ -101,7 +101,7 @@ with st.sidebar:
         if st.button(blog.stem, key=blog.name):
             st.session_state.selected = blog
 
-st.title("🤖 Agios - Agentic Blog Auto Writer")
+st.title("🤖 HitchAI - Agentic Blog Auto Writer")
 
 topic = st.text_input(
     "Topic",
